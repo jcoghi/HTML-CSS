@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+	width: auto;
+}
+
+.frame{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.aula_1,.aula_3,.aula_5,.aula_7,.aula_9,.aula_11{
+	background: skyblue;
+	width: 50%;
+	min-width: 40%;
+	height: 200px;
+	text-align: justify;
+	padding: 10px;
+
+	box-sizing: border-box;
+	float: left;
+	border: 1px solid black;
+	vertical-align: top;
+
+	overflow: auto;
+
+}
+
+.aula_2,.aula_4,.aula_6,.aula_8,.aula_10{
+	background: lightcoral;
+	width: auto;
+	min-width: 40%;
+	height: 200px;
+	text-align: justify;
+	padding: 10px;
+
+	box-sizing: border-box;
+	border: 1px solid black;
+
+	overflow: auto;
+}

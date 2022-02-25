@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+.center{
+	box-sizing: content-box;
+	width: 1280px;
+	margin: 0 auto;
+	padding-left: 30px;
+	background-color: gray;
+}
+
+.artigo{
+	text-align: justify;
+	width: 500px;
+}

@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+.bg{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+
+	/* Backgroud
+	bakcgorund-color -> RGB, Hexdecimal, name
+	background-image -> Chama uma imgem
+
+	 */
+
+	background-color: #ccc;
+	background-image: url('../imagens/scorbunny.png');
+	background-size: 50px auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.frame{
+	width: 100%;
+	text-align: center;
+	background-color: rgb(200, 200, 200);
+}
+
+.item{
+	width: 33.3%;
+	margin-right: -4px;
+	display: inline-block;
+}
+
+.frame > .item > img{
+	height: 50px;
+}

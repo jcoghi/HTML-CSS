@@ -1,0 +1,111 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body{
+	height: 100%;
+}
+
+.cabecalho{
+	position: fixed;
+	left: 5px;
+	top: 5px;
+	background-color: cyan;
+}
+
+form{
+	width: 96%;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+form fieldset{
+	padding: 20 40px;
+	border: 1px solid #ccc;
+}
+
+form legend{
+	text-align: left;
+	font-size: 17px;
+	color: rgb(130, 130, 130);
+	padding: 5px;
+}
+
+form input[type = text]{
+	font-family: tahoma;
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 80%;
+	padding: 10xp 13px;
+	border: 1px solid #ccc;
+}
+
+form input[type= text]:focus, form select: focus, form textarea: focus{
+	outline: 0;
+}
+
+form input[type = password]{
+	font-family: tahoma;
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 80%;
+	padding: 10xp 13px;
+	border: 1px solid #ccc;
+}
+
+form input[type= password]:focus{
+	outline: 0;
+}
+
+form select {
+	font-family: tahoma;
+	width: 80%;
+	margin-top: 10px;
+	padding: 10px 13px;
+	display: inline-block;
+	border: 1px solid #ccc;
+}
+
+form h2{
+	margin-top: 20px;
+}
+.input{
+	display: inline-block;
+	text-align: left;
+	margin-top: 20px;
+	color: rgb(100, 100, 100);
+}
+
+.input span{
+	margin-left: 13px;
+	font-size: 16px;
+	color: rgb(130, 130, 130);
+}
+
+form textarea{
+	font-family: tahoma;
+	margin-top: 30px;
+	width: 80%;
+	height: 140px;
+	padding: 10px 13 px;
+	resize: none;
+	border: 1px solid #ccc;
+}
+
+form input[type = submit]{
+	margin: 30px;
+	width: 140px;
+	height: 40px;
+	border: 2px solid #ccc;
+	color: white;
+	background-color: rgb(140, 140, 140);
+
+	cursor: pointer;
+}
+
+input [type = file]{
+	display: none;
+}

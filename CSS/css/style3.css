@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.tipo1{
+	color: rgb(100, 100, 100);
+}
+
+.link_{
+	background-color: cyan;
+	font-size: 20px;
+}
+
+.tipo2{
+	/* Esta classe que manda na bagaça, 
+	pois é a última que foi colocada */
+
+	font-size: 40px;
+}
+.link_ .tipo2{
+	/* Especifica mais do que a anterior. */
+}

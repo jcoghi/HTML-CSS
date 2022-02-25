@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+.box{
+	width: 300px;
+	margin: 0 auto;
+	height: auto;
+	display: inline-block;
+	background: gray;
+	overflow: auto;
+}
+
+.box2{
+	width: 300px;
+	height: 300px;
+	background: lightblue;
+}
+
+.box > .box2 > span{
+	display: inline-block;
+	width: inherit;
+	height: inherit;
+	background: lightsalmon;
+}

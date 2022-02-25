@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style11.css">
+	<title>Aulas de CSS</title>
+</head>
+<body>
+	<div class="cabecalho">
+		<a href="aula1.html">Voltar</a>
+	</div><!--cabecalho-->
+
+	<form>
+		<fieldset>
+			<legend>Meu formulário</legend>
+			<div><input type="text" name="nome" placeholder="Digite teu nome" /></div>
+			<div><input type="text" name="email" placeholder="Digite teu e-mail" /></div>
+			<div><input type="password" name="senha" placeholder="Digite tua senha" /></div>
+			<div>
+				<select name="lista">
+					<option disabled selected>Qual tua idade?</option>
+					<option value="20">20-</option>
+					<option value="20-40">20 - 40</option>
+					<option value="40">40+</option>
+				</select>
+			</div>
+
+			<h2>Qual sua cidade?</h2>
+			<div class="input">
+				<div>
+					<input type="radio" name="cidade" value="SaoPaulo" /><span>São Paulo</span>
+				</div>
+				<div>
+					<input type="radio" name="cidade" value="RioJaneiro" /><span>Rio de Janeiro</span>
+				</div>
+				<div>
+					<input type="radio" name="cidade" value="Florianopolis" /><span>Florianópolis</span>
+				</div>
+		</div><!--radio-input-->
+
+		<h2>O que você gosta de comer?</h2>
+		<div class="input">
+			<div>
+				<input type="checkbox" name="comida" value="Fruta" /><span>Fruta</span>
+			</div>
+			<div>
+				<input type="checkbox" name="comida" value="FastFood" /><span>Fast food</span>
+			</div>
+			<div>
+				<input type="checkbox" name="comida" value="Salada" /><span>Salada</span>
+			</div>
+		</div><!--radio-input-->
+
+		<div>
+			<textarea name="observacao" placeholder="Possui alguma observação?"></textarea>
+		</div>
+
+		<form>
+			<input id="file" type="file" name="file" />
+			<label for="file">Clique aqui!</label>
+		</form>
+
+		<div>
+			<input type="submit" name="acao" value="Enviar">
+		</div>
+		</fieldset>
+	</form>
+
+</body>
+</html>
